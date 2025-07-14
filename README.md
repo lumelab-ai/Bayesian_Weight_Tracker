@@ -1,28 +1,3 @@
-# 🧠 **Project Overview**
-> ⚠️ **Status: Pre-Release**
->
-> This project is still under active development and has **not yet reached version 1.0**.
-> It’s progressing well and already provides meaningful results, but some parts may evolve.
->
-> 🧪 The full analysis is implemented in a **Jupyter Notebook**, designed for transparency, experimentation, and reproducibility.
->
-> 🤝 **Contributions are welcome** — whether it's feature ideas, bug fixes, or feedback.
-
-Wearables, smart scales, and nutrition-tracking apps generate an immense volume of health-related data — from physical activity and sleep to nutrition and hydration. Yet the real value of this data often remains locked within the platforms that collect it, serving mostly as vanity metrics or for social sharing. This project aims to change that by creating an analytical tool that puts this data to work **for the user**.
-
-Our goal is to deliver a deep, personalized analysis of how different aspects of your daily habits — such as sleep quality, activity level, and dietary intake — influence **changes in your body weight** over time, whether your goal is to **lose**, **gain**, or **maintain** it. The model not only identifies these relationships but also **quantifies their impact**, offering **actionable insights** to help users make smarter health and wellness decisions.
-
-At the core of the system is a **Bayesian Structural Time Series (BSTS)** model, built with **TensorFlow Probability**. BSTS is a class of probabilistic time series models that decomposes an observed variable (here, body weight) into latent components such as:
-
-* **A local linear trend**, capturing long-term directional changes, and
-* **A regression component with exogenous variables**, modeling how daily behaviors influence that trend.
-
-This framework enables the estimation of **time-varying effects**, the use of **flexible priors** based on domain knowledge, and the generation of **credible intervals** to express uncertainty. Unlike standard models, BSTS produces full **posterior distributions** — allowing for risk-aware forecasts that reflect the true variability in individual trajectories.
-
-Users can analyze how their habits affect weight over time and share these insights with healthcare professionals — such as nutritionists, sports physicians, or coaches — who can then design **personalized, data-driven wellness plans** based on real behavioral evidence.
-
-## 📦 Dependencies
-
 ![pandas](https://img.shields.io/badge/-pandas-blue?logo=pandas)
 ![numpy](https://img.shields.io/badge/-numpy-blue?logo=numpy)
 ![scipy](https://img.shields.io/badge/-scipy-blue?logo=scipy)
@@ -39,6 +14,30 @@ Users can analyze how their habits affect weight over time and share these insig
 ![seaborn](https://img.shields.io/badge/-seaborn-blue)
 ![networkx](https://img.shields.io/badge/-networkx-blue)
 
+---
+
+> ⚠️ **Status: Pre-Release**
+>
+> This project is still under active development and has **not yet reached version 1.0**.
+> It’s progressing well and already provides meaningful results, but some parts may evolve.
+>
+> 🧪 The full analysis is implemented in a **Jupyter Notebook**, designed for transparency, experimentation, and reproducibility.
+>
+> 🤝 **Contributions are welcome** — whether it's feature ideas, bug fixes, or feedback.
+
+# 🧠 **Project Overview**
+Wearables, smart scales, and nutrition-tracking apps generate an immense volume of health-related data — from physical activity and sleep to nutrition and hydration. Yet the real value of this data often remains locked within the platforms that collect it, serving mostly as vanity metrics or for social sharing. This project aims to change that by creating an analytical tool that puts this data to work **for the user**.
+
+Our goal is to deliver a deep, personalized analysis of how different aspects of your daily habits — such as sleep quality, activity level, and dietary intake — influence **changes in your body weight** over time, whether your goal is to **lose**, **gain**, or **maintain** it. The model not only identifies these relationships but also **quantifies their impact**, offering **actionable insights** to help users make smarter health and wellness decisions.
+
+At the core of the system is a **Bayesian Structural Time Series (BSTS)** model, built with **TensorFlow Probability**. BSTS is a class of probabilistic time series models that decomposes an observed variable (here, body weight) into latent components such as:
+
+* **A local linear trend**, capturing long-term directional changes, and
+* **A regression component with exogenous variables**, modeling how daily behaviors influence that trend.
+
+This framework enables the estimation of **time-varying effects**, the use of **flexible priors** based on domain knowledge, and the generation of **credible intervals** to express uncertainty. Unlike standard models, BSTS produces full **posterior distributions** — allowing for risk-aware forecasts that reflect the true variability in individual trajectories.
+
+Users can analyze how their habits affect weight over time and share these insights with healthcare professionals — such as nutritionists, sports physicians, or coaches — who can then design **personalized, data-driven wellness plans** based on real behavioral evidence.
 
 ---
 
