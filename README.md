@@ -1,4 +1,12 @@
 # 🧠 **Project Overview**
+> ⚠️ **Status: Pre-Release**
+>
+> This project is still under active development and has **not yet reached version 1.0**.
+> It’s progressing well and already provides meaningful results, but some parts may evolve.
+>
+> 🧪 The full analysis is implemented in a **Jupyter Notebook**, designed for transparency, experimentation, and reproducibility.
+>
+> 🤝 **Contributions are welcome** — whether it's feature ideas, bug fixes, or feedback.
 
 Wearables, smart scales, and nutrition-tracking apps generate an immense volume of health-related data — from physical activity and sleep to nutrition and hydration. Yet the real value of this data often remains locked within the platforms that collect it, serving mostly as vanity metrics or for social sharing. This project aims to change that by creating an analytical tool that puts this data to work **for the user**.
 
